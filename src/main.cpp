@@ -9,7 +9,7 @@ void setup() {
   // put your setup code here, to run once:
   //Serial.begin(115200);
   g_Display.init();
-  g_Display.setRotation(0);
+  g_Display.setRotation(3);
   g_Display.fillScreen(TFT_RED);
   g_Display.setTextColor(TFT_WHITE, TFT_RED);
   g_Display.textsize = 4;
